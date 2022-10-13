@@ -1,2 +1,2 @@
 #!/bin/bash
-printf '%\n' $(( $((5#$(echo $STIR | tr 'stir.'
+printf '%\n' $(( $((5#$(echo $STIR))) | tr 'stir.' 
